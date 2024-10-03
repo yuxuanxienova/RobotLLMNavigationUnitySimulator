@@ -1,0 +1,13 @@
+# Ignore everything
+Assets/
+Packages/
+Logs/
+Packages/
+UserSettings/
+Library/
+ProjectSettings/
+Temp/
+*.meta
+
+
+
