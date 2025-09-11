@@ -57,11 +57,11 @@ public class PlayerControllerCoordinate : MonoBehaviour
     {
         if(onGround)
         {
-            playerRigidBody.drag = groundDrag;
+            playerRigidBody.linearDamping = groundDrag;
         }
         else
         {
-            playerRigidBody.drag = 0;
+            playerRigidBody.linearDamping = 0;
         }
     }
 
